@@ -10,8 +10,7 @@ const MUNICIPALITY_CITIES_ARR = [
   '澳门特别行政区',
 ];
 
-// IF you outside China please make sure IS_CHINESE = false
-const IS_CHINESE = true;
+const IS_CHINESE = false;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength, year) =>
   `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是 ${year} 的数据`;
